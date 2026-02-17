@@ -12,7 +12,7 @@ settings.gradle.kts dosyanıza ekleyin:
 
 build.gradle.kts dosyanıza ekleyin:
 
-    implementation("com.github.AdsYield:mediation-adapter-android:1.0.0")
+    implementation("com.github.bugranalci:AdsyieldMediationAdapter:1.0.0")
 
 ## Desteklenen Formatlar
 

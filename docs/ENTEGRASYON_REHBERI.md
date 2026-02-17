@@ -27,7 +27,7 @@ App seviyesi `build.gradle.kts` dosyasına dependency'yi ekleyin:
 
 ```kotlin
 dependencies {
-    implementation("com.github.AdsYield:mediation-adapter-android:1.0.0")
+    implementation("com.github.bugranalci:AdsyieldMediationAdapter:1.0.0")
 }
 ```
 
@@ -133,7 +133,7 @@ Add the dependency to your app-level `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.github.AdsYield:mediation-adapter-android:1.0.0")
+    implementation("com.github.bugranalci:AdsyieldMediationAdapter:1.0.0")
 }
 ```
 
