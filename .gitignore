@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/adapter/build
+/sample/build
+/nativetemplates/build
+ADSYIELD_MEDIATION_ADAPTER_SPEC_v3_FINAL.md

@@ -1,0 +1,2 @@
+-keep class com.adsyield.mediation.adapter.** { *; }
+-dontwarn com.adsyield.mediation.adapter.**
