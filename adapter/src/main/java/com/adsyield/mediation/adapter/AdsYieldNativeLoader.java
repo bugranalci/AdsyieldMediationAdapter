@@ -121,7 +121,7 @@ public class AdsYieldNativeLoader {
             // Images
             List<NativeAd.Image> images = nativeAd.getImages();
             if (images != null && !images.isEmpty()) {
-                List<NativeAd.Image> mappedImages = new ArrayList<>();
+                List<com.google.android.gms.ads.formats.NativeAd.Image> mappedImages = new ArrayList<>();
                 for (NativeAd.Image image : images) {
                     mappedImages.add(new AdsYieldNativeMappedImage(image));
                 }
@@ -151,7 +151,8 @@ public class AdsYieldNativeLoader {
     /**
      * Wraps a NativeAd.Image for use in the mapper.
      */
-    static class AdsYieldNativeMappedImage extends NativeAd.Image {
+    @SuppressWarnings("deprecation")
+    static class AdsYieldNativeMappedImage extends com.google.android.gms.ads.formats.NativeAd.Image {
 
         private final Drawable drawable;
         private final Uri uri;
